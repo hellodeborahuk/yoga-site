@@ -1,10 +1,18 @@
+import Link from "next/link"
+
 const Navbar = () => {
     return (
       <nav>
         <div className="left-nav">
-          <Link to="/">Home</Link>
-          <Link to="/bloglist">Blog</Link>
-          <Link to="/contact">Contact</Link>
+          <Link href="/">
+            <a>Home</a>
+          </Link>
+          <Link href="/blog">
+            <a>Blog</a>
+          </Link>
+          <Link href="/contact">
+            <a>Contact</a>
+          </Link>
         </div>
         <h1>Debbie Dann Yoga</h1>
         <div className="right-nav">

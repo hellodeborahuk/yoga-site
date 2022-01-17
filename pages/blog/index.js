@@ -1,12 +1,9 @@
-import Footer from "../../components/Footer";
-import Navbar from "../../components/Navbar";
+
 
 const Blog = () => {
   return (
     <div>
-      <Navbar />
-      Blog posts go here.
-      <Footer />
+      <h1> Blog posts go here.</h1>
     </div>
   );
 };

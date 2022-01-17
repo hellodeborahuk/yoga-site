@@ -305,6 +305,7 @@ footer > * {
 
 .logo {
   grid-area: logo;
+  justify-self: center;
   width: 100%;
 }
 

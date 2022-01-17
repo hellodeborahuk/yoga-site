@@ -1,5 +1,6 @@
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -19,11 +20,14 @@ const Footer = () => {
         <a href="/" className="social-icons facebook">
           <FaFacebookSquare />
         </a>
-        <img
-          src="./images/logo-nameless-small.png"
-          alt="logo"
-          className="logo"
-        />
+        <div className="logo">
+          <Image
+            src="/logo-nameless-small.png"
+            alt="logo"
+            width={1420}
+            height={1000}
+          />
+        </div>
       </div>
       <div className="footer-nav">
         <a href="/">Home</a>

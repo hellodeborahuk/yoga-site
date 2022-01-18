@@ -1,3 +1,5 @@
 .postTitle {
     color: var(--teal);
+    margin: 1em;
+    display: block;
 }

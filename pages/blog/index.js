@@ -1,4 +1,5 @@
 import styles from "../../styles/Blog.module.css";
+import Link from "next/link"
 
 export async function getStaticProps() {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts");
@@ -14,9 +15,9 @@ const Blog = ({ posts }) => {
     <div>
       <h1> Blog posts go here.</h1>
       {posts.map((post) => (
-        <div key={post.id}>
-          <h3 className={styles.postTitle}>{post.title}</h3>
-        </div>
+        <Link href={`/blog/post.id`} key={post.id}>
+          <a className={styles.postTitle}>{post.title}</a>
+        </Link>
       ))}
     </div>
   );

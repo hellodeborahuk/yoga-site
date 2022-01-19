@@ -60,8 +60,8 @@ export default function Home() {
           </div>
           <div className={styles.infoQuote}>
             <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-              placerat nunc sed leo cursus laoreet."
+              &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Proin placerat nunc sed leo cursus laoreet.&quot;
             </p>
             <img
               src="./images/quote-right.svg"

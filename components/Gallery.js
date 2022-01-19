@@ -28,6 +28,7 @@ export default function Gallery() {
         <img
           src={`../images/gallery/${item.image}`}
           alt={item.alt}
+          key={item.index}
           className="gallery-img"
         />
       ))}

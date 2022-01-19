@@ -15,10 +15,16 @@ const Footer = () => {
         </p>
       </div>
       <div className="social">
-        <a href="/" className="social-icons instagram">
+        <a
+          href="https://instagram.com/debbiedannyoga"
+          className="social-icons instagram"
+        >
           <FaInstagram />
         </a>
-        <a href="/" className="social-icons facebook">
+        <a
+          href="https://www.facebook.com/debbiedannyoga"
+          className="social-icons facebook"
+        >
           <FaFacebookSquare />
         </a>
         <div className="logo">

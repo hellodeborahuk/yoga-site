@@ -76,8 +76,8 @@ export default function Home() {
             <Image
               src="/images/easy-pose-yoga-2.jpg"
               alt="yoga easy pose"
-              width={1420}
-              height={1000}
+              width={2500}
+              height={1667}
             />
           </div>
           <div className={styles.infoOverviewCopy}>

@@ -1,6 +1,7 @@
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link"
 
 const Footer = () => {
   return (
@@ -22,7 +23,7 @@ const Footer = () => {
         </a>
         <div className="logo">
           <Image
-            src="/logo-nameless-small.png"
+            src="/images/logo-nameless-small.png"
             alt="logo"
             width={1420}
             height={1000}
@@ -30,11 +31,21 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-nav">
-        <a href="/">Home</a>
-        <a href="/">About</a>
-        <a href="/">Contact</a>
-        <a href="/">Privacy Policy</a>
-        <a href="/">Terms and Conditions</a>
+        <Link href="/">
+          <a>Home</a>
+        </Link>
+        <Link href="/blog">
+          <a>Blog</a>
+        </Link>
+        <Link href="/contact">
+          <a>Contact</a>
+        </Link>
+        <Link href="/">
+          <a>Privacy Policy</a>
+        </Link>
+        <Link href="/">
+          <a>Terms and Conditions</a>
+        </Link>
       </div>
     </footer>
   );

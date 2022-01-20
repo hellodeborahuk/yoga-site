@@ -12,8 +12,6 @@ const firebaseConfig = {
   appId: "1:343308541111:web:2d5d9292baab0b264b4132",
 };
 
-
-
 export async function getStaticProps() {
   initializeApp(firebaseConfig);
 
@@ -32,9 +30,6 @@ export async function getStaticProps() {
       console.log;
     });
 
-  //const res = await fetch("https://jsonplaceholder.typicode.com/posts");
-  //const data = await res.json();
-
   return {
     props: { posts: data },
   };
@@ -42,17 +37,28 @@ export async function getStaticProps() {
 
 const Blog = ({ posts }) => {
   return (
-    <div>
-      <h1> Blog posts go here.</h1>
-      {posts.map((post) => (
-        <div>
-          <img src={post.image} alt={post.title} className={styles.postImage} />
-          <Link href={`/blog/${post.id}`} key={post.id}>
-            <a className={styles.postTitle}>{post.title}</a>
-          </Link>
-          <p>{post.body}</p>
-        </div>
-      ))}
+    <div className={styles.container}>
+      <h1> Latest blog posts</h1>
+      <div className={styles.postContainer}>
+        {posts.map((post) => (
+          <div className={styles.post}>
+            <img
+              src={post.image}
+              alt={post.title}
+              className={styles.postImage}
+            />
+            <Link href={`/blog/${post.id}`} key={post.id}>
+              <a className={styles.postTitle}>{post.title}</a>
+            </Link>
+            <p className={styles.postExtract}>{post.extract}</p>
+            <Link href={`/blog/${post.id}`} key={post.id}>
+              <a className={styles.postBtn}>
+                <button>Read more</button>
+              </a>
+            </Link>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

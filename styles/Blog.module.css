@@ -1,9 +1,42 @@
+.container {
+    width: 80%;
+      margin: 0 auto;
+}
+
+.postContainer {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap: 2em; 
+  margin-top: 3em;    
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+      border: 1px solid var(--soft-pink);
+  border-radius: 4px;
+}
+
 .postTitle {
     color: var(--teal);
-    margin: 1em;
-    display: block;
+    padding: 0 16px;
+    margin-top: 1em;
+    font-family: "Italiana", serif;
+    font-size: 1.3rem;
 }
 
 .postImage {
-    width: 50%;
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.postExtract {
+    padding: 0 1em;
+}
+
+.postBtn {
+    margin: 1em auto;
 }

@@ -71,6 +71,7 @@ button {
   color: var(--pale-cream);
   font-weight: 600;
   padding: 1em 2em;
+  cursor: pointer;
 }
 
 /* ================= 404 ================= */

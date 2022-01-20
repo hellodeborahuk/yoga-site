@@ -41,7 +41,7 @@ const Blog = ({ posts }) => {
       <h1> Latest blog posts</h1>
       <div className={styles.postContainer}>
         {posts.map((post) => (
-          <div className={styles.post}>
+          <div className={styles.post} key={post.id}>
             <img
               src={post.image}
               alt={post.title}

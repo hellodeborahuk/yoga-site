@@ -46,6 +46,7 @@ const Blog = ({ posts }) => {
       <h1> Blog posts go here.</h1>
       {posts.map((post) => (
         <div>
+          <img src={post.image} alt={post.title} className={styles.postImage} />
           <Link href={`/blog/${post.id}`} key={post.id}>
             <a className={styles.postTitle}>{post.title}</a>
           </Link>

@@ -3,3 +3,7 @@
     margin: 1em;
     display: block;
 }
+
+.postImage {
+    width: 50%;
+}

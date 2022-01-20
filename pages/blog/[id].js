@@ -1,3 +1,5 @@
+
+
 export async function getStaticPaths() {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts");
   const data = await res.json();
@@ -13,6 +15,7 @@ export async function getStaticPaths() {
     fallback: false
   }
 }
+
 
 export async function getStaticProps(context) {
     const id = context.params.id

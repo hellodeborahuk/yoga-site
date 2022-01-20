@@ -23,11 +23,10 @@ export async function getStaticProps() {
       snapshot.docs.forEach((doc) => {
         posts.push({ ...doc.data(), id: doc.id });
       });
-      console.log(posts);
       return posts
     })
     .catch((err) => {
-      console.log;
+      console.log(err);
     });
 
   return {

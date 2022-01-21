@@ -94,6 +94,11 @@ color: var(--teal);
 /* ================= GALLERY ================= */
 
 .gallery {
+  display: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .gallery {
   margin: 3em auto;
   width: 80%;
   display: flex;
@@ -106,6 +111,7 @@ color: var(--teal);
   height: 200px;
   object-fit: cover;
 }
+}
 
 /* ================= FOOTER ================= */
 
@@ -114,8 +120,15 @@ footer {
   margin-top: 3em;
   padding-top: 3em;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   gap: 6em;
+}
+
+@media only screen and (min-width: 768px) {
+  footer {
+    flex-direction: row;
+  }
 }
 
 footer > * {

@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Gallery from "../components/Gallery";
+import substituteClassApplyAtRules from "tailwindcss/lib/lib/substituteClassApplyAtRules";
 
 
 export default function Home() {
@@ -107,7 +108,7 @@ export default function Home() {
               straight in your inbox. You’ll also find out first when my classes
               start.
             </p>
-            <form>
+            <form className={styles.form}>
               <input
                 type="text"
                 placeholder="Name"

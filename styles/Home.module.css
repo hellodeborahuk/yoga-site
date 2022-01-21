@@ -3,12 +3,40 @@
 .hero {
   height: 400px;
   margin: 0 -3em;
-  background: linear-gradient(58deg, rgba(32,153,139,0.6) 0%, rgba(32,153,139,0.6) 100%), url(../public/images/restorative-yoga-savasana.jpg) no-repeat;
+  background: linear-gradient(
+      58deg,
+      rgba(32, 153, 139, 0.6) 0%,
+      rgba(32, 153, 139, 0.6) 100%
+    ),
+    url(../public/images/restorative-yoga-savasana.jpg) no-repeat;
   background-size: cover;
   background-position: 50% 45%;
   position: relative;
 }
 
+.heroCopy {
+  display: none;
+}
+
+.heroPrice {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+.heroCopy {
+  display: block;
+  width: 30%;
+  font-size: 1.1rem;
+  position: absolute;
+  top: 280px;
+  left: 100px;
+  color: var(--pale-cream);
+}
+
+.heroCopy span {
+  font-weight: 600;
+  
+}
 .heroPrice {
   background-color: var(--soft-pink);
   display: flex;
@@ -26,28 +54,41 @@
 .heroPrice p {
   margin: 0;
 }
-
-.heroCopy {
-  width: 30%;
-  font-size: 1.4rem;
-  position: absolute;
-  top: 280px;
-  left: 100px;
-  color: var(--pale-cream);
 }
 
-.heroCopy span {
-  font-weight: 600;
+@media only screen and (min-width: 992px) {
+.heroCopy {
+  font-size: 1.3rem;
+}
+}
+@media only screen and (min-width: 1200px) {
+.heroCopy {
+  font-size: 1.4rem;
+}
 }
 
 /* ================= INFO BOXES ================= */
 
 .info {
   display: flex;
+  flex-direction: column;
   gap: 2em;
-  width: 80%;
-  margin: 3em auto;
+  margin: 1em auto;
 }
+
+@media only screen and (min-width: 768px ) {
+  .info {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .info {
+    flex-direction: row;
+    widtH: 80%;
+  }
+}
+
 .infoFlow,
 .infoRestorative,
 .infoQuote {
@@ -95,9 +136,9 @@
 }
 
 .infoOverview {
-  width: 80%;
   margin: 4em auto;
   display: flex;
+  flex-direction: column;
   gap: 2em;
 }
 
@@ -108,7 +149,33 @@
 }
 
 .infoOverviewImg {
-  width: 50%;
+  align-self: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .infoOverviewImg {
+  width: 60%;
+}
+}
+
+@media only screen and (min-width: 992px) {
+  .infoOverview {
+    width: 80%;
+    margin: 4em auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+  }
+
+  .infoOverviewCopy {
+    display: block;
+    flex-basis: 150px;
+    flex-grow: 1;
+  }
+
+  .infoOverviewImg {
+    width: 50%;
+  }
 }
 
 /* ================= MAILING LIST ================= */
@@ -119,18 +186,40 @@
   padding-bottom: 2em;
 }
 
+
 .mailingList {
-  width: 50%;
+  width: 90%;
   margin: auto;
   padding: 1em;
   text-align: center;
+}
+
+ .form {
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+ }
+
+@media only screen and (min-width: 600px ) {
+ .mailingList {
+    width: 70%;
+ }
+}
+
+
+@media only screen and (min-width: 992px ) {
+ .mailingList {
+    width: 50%;
+ }
+  .form {
+   flex-direction: row;
+ }  
 }
 
 .input {
   padding: 1em;
   border-radius: 4px;
   border: none;
-  margin-right: 1em;
 }
 
 /* ================= BLOG ================= */
@@ -155,4 +244,3 @@
   display: block;
   margin: 0 auto;
 }
-

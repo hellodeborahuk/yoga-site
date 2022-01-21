@@ -56,6 +56,10 @@ nav {
     flex-direction: row;
       margin-bottom: 0;
   }
+
+  .website-title {
+      order: 0; 
+  }
 }
 
 .left-nav,

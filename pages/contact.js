@@ -12,8 +12,7 @@ const Contact = () => {
   const ConfirmationMessage = (
     <React.Fragment>
       <p>
-        Thank you for submitting this form. Someone should get back to you
-        within 24-48 hours.
+        Thank you for submitting this form. I will get back to you shortly.
       </p>
 
       <button
@@ -45,7 +44,7 @@ const Contact = () => {
           Don’t fill this out: <input name="bot-field" />
         </label>
       </p>
-      <label htmlFor="name">Name *</label>
+      <label htmlFor="name">Name</label>
       <input
         id="name"
         name="name"
@@ -54,7 +53,7 @@ const Contact = () => {
         onChange={(e) => setSubmitterName(e.target.value)}
         className={styles.input}
       />
-      <label htmlFor="email">E-mail Address *</label>
+      <label htmlFor="email">E-mail Address</label>
       <input
         id="email"
         type="email"
@@ -62,7 +61,7 @@ const Contact = () => {
         required
         className={styles.input}
       />
-      <label htmlFor="message">Message *</label>
+      <label htmlFor="message">Message</label>
       <textarea
         id="message"
         name="message"

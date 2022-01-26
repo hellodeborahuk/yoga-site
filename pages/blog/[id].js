@@ -1,5 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, getDocs, getDoc, doc } from "firebase/firestore";
+import styles from "../../styles/Blog.module.css";
 
 const firebaseConfig = {
   apiKey: "AIzaSyCPvh9ILI1N7j3-Mt_eH-uvkX13cdwoDaI",
@@ -38,8 +39,9 @@ export const getStaticProps = async (context) => {
 
 const BlogPost = ({ post }) => {
   return (
-    <article>
+    <article className={styles.blogContainer}>
       <h1>{post.title}</h1>
+      <img src={post.image} alt={post.title} className={styles.blogPostImage} />
       <p>{post.body}</p>
     </article>
   );

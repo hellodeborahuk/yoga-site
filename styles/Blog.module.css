@@ -40,3 +40,15 @@
 .postBtn {
     margin: 1em auto;
 }
+
+.blogContainer {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4em;
+}
+
+.blogPostImage {
+    width: 30%;
+    display: block;
+    margin: 2em auto;
+}

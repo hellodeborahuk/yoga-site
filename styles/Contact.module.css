@@ -1,0 +1,29 @@
+.container {
+    width: 95%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+}
+
+.btn {
+    margin: 0 auto;
+    width: 150px;
+}
+
+.input {
+    padding: 1em 2em;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 80%;
+  }
+  .form {
+    width: 50%;
+  }
+}
+

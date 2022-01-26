@@ -13,6 +13,7 @@ I'm recreating my yoga website that I had previously created in WordPress. I wan
 ## Roadmap
 
 1. Create a booking system
+2. Add contact form
 
 ## Contact
 

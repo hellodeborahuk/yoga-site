@@ -39,6 +39,10 @@ h3 {
   margin: 0;
 }
 
+h4 {
+  margin: 0;
+}
+
 /* ================= NAVIGATION ================= */
 nav {
   display: flex;

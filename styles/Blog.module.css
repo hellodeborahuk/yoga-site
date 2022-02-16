@@ -23,6 +23,11 @@
     margin-top: 1em;
     font-family: "Italiana", serif;
     font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.postTitle:hover {
+    color: var(--dark-grey);
 }
 
 .postImage {
@@ -61,6 +66,7 @@
   font-weight: 600;
   padding: 0.5em 1em;
   cursor: pointer;
+  margin-bottom: 1em;
 }
 
 .backBtn:hover, .readMore:hover {

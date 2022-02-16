@@ -4,11 +4,9 @@ excerpt: "Pranayama is made up of the words prana meaning ‘life force’ and a
 cover_image: "./images/posts/mudra.jpg"
 ---
 
-## The Benefits of Pranayama
-
 Pranayama is made up of the words prana meaning ‘life force’ and ayama meaning ‘control’. Pranayama is the control of the breath and comes in many different breathing techniques which we may cover in class. I used the think of pranayama as a waste of time, but I don’t think I had the right teacher at the time. During my first month of yoga teacher training we were asked to do pranayama every day and keep a journal. I feel in love with a couple of techniques and continue to practice them daily. There are many benefits to pranayama and we’ll cover a few of them here. 
 
-### Benefits of Pranayama
+#### Benefits of Pranayama
 
 * When we focus on our breath we can increase feelings of stillness and mindfulness. 
 * Focusing on our breath activates the parasympathetic nervous system, which produces a sense of calm. This can help us slow down and identify what emotions are showing up. If you need a quick fix when emotions bubble up, do a pranayama exercise to slow down for a few minutes.

@@ -1,4 +1,5 @@
 import styles from "../../styles/Blog.module.css";
+import Post from "./post"
 import matter from "gray-matter";
 import fs from "fs";
 import path from "path"
@@ -9,7 +10,7 @@ export default function Blog({posts}) {
       <h1>Latest blog posts</h1>
       <div className={styles.postContainer}>
         {posts.map((post, index) => (
-        <h4>{post.frontmatter.title}</h4>
+        <Post post={post} />
       ))}
       </div>
     </div>

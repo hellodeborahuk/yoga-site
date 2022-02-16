@@ -10,11 +10,9 @@ const PostPage = ({frontmatter: {title, cover_image}, slug, content}) => {
         <section className={styles.blogContainer}>
         <h1>{title}</h1>
         <img src={cover_image} alt={title} className={styles.blogPostImage} />
-        <div>
         <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
-        </div>
         <Link href="/blog">
-            <a>Go back</a>
+            <a className={styles.backBtn}>Go back</a>
         </Link>
         </section>
      );

@@ -8,7 +8,7 @@ const Post = ({post}) => {
             <h4 className={styles.postTitle}>{post.frontmatter.title}</h4>
             <p className={styles.postExcerpt}>{post.frontmatter.excerpt}</p>
             <Link href={`/blog/${post.slug}`}>
-                <a className={styles.postBtn}>Read more</a>
+                <a className={styles.readMore}>Read more</a>
             </Link>
         </div>
      );

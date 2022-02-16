@@ -90,6 +90,11 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  color: var(--dark-grey);
+  background: var(--soft-pink);
+}
+
 /* ================= 404 ================= */
 
 .not-found {

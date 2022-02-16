@@ -1,7 +1,7 @@
 ---
 title: "The Benefits of Pranayama"
 excerpt: "Pranayama is made up of the words prana meaning ‘life force’ and ayama meaning ‘control’. Pranayama is the control of the breath and comes in many different breathing techniques which we may cover in class."
-cover_image: "./images/posts/books.jpg"
+cover_image: "./images/posts/mudra.jpg"
 ---
 
 ## The Benefits of Pranayama

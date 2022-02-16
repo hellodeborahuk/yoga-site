@@ -1,7 +1,7 @@
 ---
-title: "The Power of Restorative Yoga"
-excerpt: "Restorative yoga is a quiet, meditative practice that brings your body and mind back into balance. We use props such as bolsters and blocks (or comfy cushions and pillows) to enable us to hold a pose for several minutes at a time."
-cover_image: "./images/posts/stones.jpg"
+    title: "The Power of Restorative Yoga"
+    excerpt: "Restorative yoga is a quiet, meditative practice that brings your body and mind back into balance. We use props such as bolsters and blocks (or comfy cushions and pillows) to enable us to hold a pose for several minutes at a time."
+    cover_image: "/images/posts/stones.jpg"
 ---
 
 Restorative yoga is a quiet, meditative practice that brings your body and mind back into balance. We use props such as bolsters and blocks (or comfy cushions and pillows) to enable us to hold a pose for several minutes at a time. During this stillness you concentrate on your breathing, bringing about a state of deep calm to both your body and mind. With every exhalation, feel yourself relaxing completely.

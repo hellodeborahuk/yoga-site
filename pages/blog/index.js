@@ -1,5 +1,5 @@
 import styles from "../../styles/Blog.module.css";
-import Post from "./post"
+import Post from "../../components/post"
 import matter from "gray-matter";
 import fs from "fs";
 import path from "path"

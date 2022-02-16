@@ -1,7 +1,7 @@
 ---
-title: "Yoga Book Recommendations"
-excerpt: "I adore reading so when I signed up for Yoga Teacher Training I went crazy and bought lots of yoga books. They are a great way to develop your practice and learn more about yoga, life and mindfulness."
-cover_image: "./images/posts/books.jpg"
+    title: "Yoga Book Recommendations"
+    excerpt: "I adore reading so when I signed up for Yoga Teacher Training I went crazy and bought lots of yoga books. They are a great way to develop your practice and learn more about yoga, life and mindfulness."
+    cover_image: "/images/posts/books.jpg"
 ---
 
 I adore reading so when I signed up for Yoga Teacher Training I went crazy and bought lots of yoga books. They are a great way to develop your practice and learn more about yoga, life and mindfulness. Here are my yoga book recommendations for you. 

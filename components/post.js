@@ -1,5 +1,5 @@
 import Link from "next/link"
-import styles from "../../styles/Blog.module.css";
+import styles from "../styles/Blog.module.css";
 
 const Post = ({post}) => {
     return ( 

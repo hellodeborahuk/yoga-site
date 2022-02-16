@@ -8,7 +8,7 @@ export default function Blog({posts}) {
   return (
     <div className={styles.container}>
       <h1>Latest blog posts</h1>
-      <div className={styles.postContainer}>
+      <div key="post" className={styles.postContainer}>
         {posts.map((post, index) => (
         <Post post={post} />
       ))}

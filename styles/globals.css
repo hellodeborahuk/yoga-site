@@ -55,10 +55,13 @@ nav {
   order: -1; 
 }
 
+.right-nav {
+  margin-top: 1em;
+}
+
 @media only screen and (min-width: 768px) {
   nav {
     flex-direction: row;
-      margin-bottom: 0;
   }
 
   .website-title {
@@ -142,14 +145,12 @@ button:hover {
 footer {
   border-top: 1px solid var(--soft-pink);
   margin: 3em 0;
-  padding-top: 3em;
+  padding-top: 1em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 2em;
+  gap: em;
 }
-
-
 
 footer > * {
   flex: 1;
@@ -202,6 +203,7 @@ footer > * {
   footer {
     flex-direction: row;
     gap: 3em;
+    padding-top: 3em;
   }
 }
 

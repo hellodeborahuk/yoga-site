@@ -16,7 +16,7 @@ const Navbar = () => {
         </div>
         <h1 className="website-title">Debbie Dann Yoga</h1>
         <div className="right-nav">
-          <button>Book your class</button>
+          <Link href="/classes"><button>Book your class</button></Link>
         </div>
       </nav>
     );

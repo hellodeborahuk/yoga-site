@@ -46,12 +46,6 @@ const Footer = () => {
         <Link href="/contact">
           <a>Contact</a>
         </Link>
-        <Link href="/">
-          <a>Privacy Policy</a>
-        </Link>
-        <Link href="/">
-          <a>Terms and Conditions</a>
-        </Link>
       </div>
     </footer>
   );

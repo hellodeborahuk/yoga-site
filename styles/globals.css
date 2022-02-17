@@ -71,7 +71,6 @@ nav {
   display: flex;
   gap: 1em;
   align-items: center;
-  margin-bottom: 1em;
 }
 
 a {
@@ -142,19 +141,15 @@ button:hover {
 
 footer {
   border-top: 1px solid var(--soft-pink);
-  margin-top: 3em;
+  margin: 3em 0;
   padding-top: 3em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 6em;
+  gap: 2em;
 }
 
-@media only screen and (min-width: 768px) {
-  footer {
-    flex-direction: row;
-  }
-}
+
 
 footer > * {
   flex: 1;
@@ -202,4 +197,16 @@ footer > * {
 
 * {
   box-sizing: border-box;
+}
+@media only screen and (min-width: 768px) {
+  footer {
+    flex-direction: row;
+    gap: 3em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  footer {
+    gap: 6em;
+  }
 }

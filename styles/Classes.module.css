@@ -1,0 +1,45 @@
+.classSection {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.classSection h2 {
+    margin: 1em;
+}
+
+.classContainer {
+    margin: 0 auto;
+    border-top: 1px solid var(--caramel);
+    padding: 1em;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.classContainer p {
+    width: 90%;
+}
+
+.classContainer:nth-child(4) {
+    border-bottom: 1px solid var(--caramel);
+}
+
+.classInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+
+@media only screen and (min-width: 992px) {
+    .classContainer {
+        width: 80%;
+        flex-direction: row;
+    }
+    
+    .classContainer p {
+        width: 90%;
+    }
+}
